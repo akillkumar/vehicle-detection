@@ -1,10 +1,10 @@
 '''
-    Introduction to Machine Learning
+    CS 1390 Introduction to Machine Learning
     Monsoon 2020
-    Course Project
 
-    Vehicle Detection in Python
-
+    Project: Vehicle Detection on Roads
+             Using openCV2 and Haar Cascade Classifiers
+    
     Akhil Kumar
     akhil.kumar_ug21@ashoka.edu.in
 '''
@@ -36,7 +36,6 @@ else:
     video = cv.VideoCapture ('vehicles/Urban/march9.avi')
 
 # our pre-trained car classifier
-# https://docs.opencv.org/2.4/doc/user_guide/ug_traincascade.html
 classifier = 'classifier.xml'
 
 # Haar cascade classifier
